@@ -61,52 +61,91 @@ body{
     /* background-attachment: fixed; */
     backdrop-filter: blur(10px);
 
-
 }
 .part2{
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border-bottom: 1px solid rgb(80,80,80);; */
 }
 #part2-title{
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 22px;
     background-color: #f8F8F8;
     border-radius: 10px;
-    
+    height: auto  px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #logo-main{
-    width: 25%;
-    height:  25%;
+    width: 22%;
+    height:  auto;
+    /* font-size: 10px; */
     padding-right: 3%;
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 1199px){
     #logo-main{
-        width: 22%;
-        height:  22%;
+        width: 20%;
+        height: auto;
         padding-right: 3%;
     }
     
 }
-@media (max-width: 768px){
+
+@media (min-width: 1024px) and (max-width: 1199px){
     #logo-main{
-        width: 25%;
-        height:  25%;
+        width: 20%;
+        height: auto;
+        padding-right: 3%;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    #logo-main{
+        width: 26%;
+        height: auto;
+        padding-right: 3%;
+    }
+    
+}
+@media (min-width: 375px) and (max-width: 768px){
+    #logo-main{
+        width: 30%;
+        height: auto;
         padding-right: 3%;
     }
     
 }
 @media (max-width: 375px){
     #logo-main{
-        width: 37%;
-        height:  30%;
+        width: 50%;
+        height: auto;
         padding-right: 3%;
     }
     
+}
+.timeline button{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    /* width: %; */
+    opacity: 0.8;
+}
+
+.part3{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer{
@@ -118,4 +157,6 @@ body{
     /* padding: 10px; */
     height: 50px;
     width: 100%;
+    display: none;
 }
+

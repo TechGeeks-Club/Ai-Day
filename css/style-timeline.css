@@ -179,6 +179,7 @@ body {
   margin: 1em 0 0 0.75em;
 }
 
+
 /* ================ Timeline Media Queries ================ */
 
 @media screen and (max-width: 660px) {
@@ -278,7 +279,7 @@ body {
 
 }
 
-@media screen and (min-width: 400px ?? max-width: 660px) {
+@media screen and (min-width: 400px) and (max-width: 660px) {
 
 .direction-l .desc,
 .direction-r .desc {
@@ -286,3 +287,5 @@ body {
 }
 
 }
+
+
