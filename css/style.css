@@ -54,7 +54,7 @@ body{
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-image: url(./img/BG-l.jpg);
+    background-image: url(/img/BG-l.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -66,6 +66,16 @@ body{
 .part2{
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#part2-title{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #f8F8F8;
+    border-radius: 10px;
+    
 }
 #logo-main{
     width: 25%;
@@ -92,8 +102,8 @@ body{
 }
 @media (max-width: 375px){
     #logo-main{
-        width: 0%;
-        height:  0%;
+        width: 37%;
+        height:  30%;
         padding-right: 3%;
     }
     
