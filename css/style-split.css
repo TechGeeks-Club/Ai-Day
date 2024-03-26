@@ -148,5 +148,17 @@
         padding: 20px;
         overflow:visible ;
     }
+    .btn{background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border-radius: 10px;
+        opacity: 0.8;
+        width: max-content;
+        align-self: center;
+        
+    }
    
 }
