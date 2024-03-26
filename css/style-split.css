@@ -127,6 +127,7 @@
     flex-grow: 10;
     border: solid 1px #4CAF50;
     overflow-y: scroll;
+    
     img {
       filter: grayscale(0);
       display: none;
