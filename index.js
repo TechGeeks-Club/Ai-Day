@@ -12,4 +12,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-  
+window.onload = function() {
+    window.scrollTo(0, 0);
+};
+
+window.addEventListener('load', function() {
+  const logo = document.getElementById('logo-main');
+  logo.style.opacity = 1;  
+});
+
