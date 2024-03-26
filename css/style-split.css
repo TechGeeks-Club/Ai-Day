@@ -19,18 +19,18 @@
 
 .card__head {
   color: black;
-    background: #4CAF50;
-    padding: 0.5em;
-    transform: rotate(-90deg);
-    transform-origin: 0% 0%;
-    transition: all 0.5s ease-in-out;
-    min-width: 100%;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 1em;
-    white-space: nowrap;
+  background: #4CAF50;
+  padding: 0.5em;
+  transform: rotate(-90deg);
+  transform-origin: 0% 0%;
+  transition: all 0.5s ease-in-out;
+  min-width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1em;
+  white-space: nowrap;
 }
 /* ===================================================== */
 .card:hover {
@@ -75,8 +75,8 @@
 }
 
 .comp-info{
-    display: none;
-    overflow: scroll;
+  display: none;
+  overflow: scroll;
 }
 
 
@@ -86,49 +86,6 @@
     border: solid 1px #4CAF50;
     overflow-y: scroll;
     
-  /* #cib{
-    display: flex;
-    flex-direction: column;
-  }
-
-    #bii{
-      display: none;
-    } */
-
-    /* img {
-      filter: grayscale(0);
-      display: none;
-    }
-   */
-    /* .card__head {
-      text-align: center;
-      top: calc(100% - 2em);
-      color: white;
-      background: rgba(0, 0, 0, 0.5);
-      font-size: 2em;
-      transform: rotate(0deg) skew(-5deg);
-      display: none;
-    } */
-    /* .comp-info{
-        display:flex;
-        height: 100%;
-        flex-direction: column;
-        padding: 20px;
-        overflow:visible ;
-    } */
-
-    /* .btn{background-color: #4CAF50;
-        color: white;
-        border: none;
-        cursor: pointer;
-        padding: 10px 20px;
-        margin: 8px 0;
-        border-radius: 10px;
-        opacity: 0.8;
-        width: max-content;
-        align-self: center;
-        
-    } */
    
 }
 .card--active img {
@@ -156,6 +113,7 @@
   background-color: #4CAF50;
   color: white;
   border: none;
+  text-decoration: none;
   cursor: pointer;
   padding: 10px 20px;
   margin: 8px 0;

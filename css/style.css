@@ -62,6 +62,7 @@ body{
     backdrop-filter: blur(10px);
 
 }
+
 .part2{
     height: auto;
     display: flex;
@@ -80,14 +81,32 @@ body{
     height: auto  px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+.part1_5{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-bottom: 1px solid rgb(80,80,80);; */
+}
+#part1_5-title{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 22px;
+    background-color: #f8F8F8;
+    border-radius: 10px;
+    height: auto  px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 #logo-main{
     width: 22%;
     height:  auto;
-    /* font-size: 10px; */
     padding-right: 3%;
-    /* filter: drop-shadow(-20px 0px 15px #ffffff) drop-shadow(0px 0px 20px #ffffff) drop-shadow(0px -20px 20px #ffffff) drop-shadow(0px 20px 20px #ffffff); */
     opacity: 0; 
-    transition: opacity 1s ease-in-out;  /* Animation properties */
+    transition: opacity 1s ease-in-out; 
 }
 
 
