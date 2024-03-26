@@ -128,6 +128,15 @@
     border: solid 1px #4CAF50;
     overflow-y: scroll;
     
+  #cib{
+    display: flex;
+    flex-direction: column;
+  }
+
+    #bii{
+      display: none;
+    }
+
     img {
       filter: grayscale(0);
       display: none;
@@ -149,6 +158,7 @@
         padding: 20px;
         overflow:visible ;
     }
+
     .btn{background-color: #4CAF50;
         color: white;
         border: none;
