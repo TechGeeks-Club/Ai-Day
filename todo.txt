@@ -1,0 +1,6 @@
+- Add logos to footer
+- responsive footer
+- fix phone view
+- fix the main logo size 'responsive'
+
+- add univ && lab logos if u want .

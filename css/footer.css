@@ -1,12 +1,65 @@
+
 .footer{
-    background-color: #d3d3d3f4;
-    color: white;
-    height: auto;
+    background-color: #151515;
     width: 100%;
+    /* padding: 15px 150px; */
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #eee;
+    justify-content: space-between;
+    /* gap: 33%; */
+ 
+}
+.f1{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.f2{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    padding: 10px;
+}
+/* .f22{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+} */
+.f3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    
+}
+/* #logo-TG-ft{
+    width:  8%;
+    height: auto;
+    padding: 10px;
+
+} */
+#cb{
+  font-size: 18px; 
+
 }
 #logo-TG-ft{
-    height: auto;
-    width: 10%;
-    padding: 10px;
+    /* display: flex; */
+    width: 70px;
+    height:  auto;
+    margin-left: 5px;
+    /* padding-left: 20px; */
 }
 
