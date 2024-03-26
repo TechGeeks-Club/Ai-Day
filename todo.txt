@@ -3,4 +3,4 @@
 - fix phone view
 - fix the main logo size 'responsive'
 
-- add univ && lab logos if u want .
+- add univ && lab logos if u want . 
