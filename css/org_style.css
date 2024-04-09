@@ -28,10 +28,10 @@
 }
 
 .outer-container {
-  padding-top: 10px;
+  /* padding-top: 10px;
   padding-right: 50px;
   padding-bottom: 10px;
-  padding-left: 50px;
+  padding-left: 50px; */
   background-color: #E6E6E6;
 }
 
@@ -118,9 +118,9 @@
 }
 
 @media (max-width: 500px) {
-  .outer-container {
+  /* .outer-container {
     padding: 10px 20px 10px 20px;
-  }
+  } */
 
   .section-head-text {
     text-align: center;
